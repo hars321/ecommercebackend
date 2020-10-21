@@ -1,0 +1,147 @@
+{
+   "products": [{
+
+    //headphone https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
+    //phone https://www.bajajfinserv.in/Best_upcoming_5G_Mobile_Phones_to_buy_in_2020_Banner_Upcoming-5G-mobiles-Img1.jpg
+    //camera https://cdn.shopify.com/s/files/1/0070/7032/files/camera_56f176e3-ad83-4ff8-82d8-d53d71b6e0fe.jpg?v=1527089512
+    //camera https://in.canon/media/image/2018/05/03/642e7bbeae5741e3b872e082626c0151_eos6d-mkii-ef-24-70m-l.png
+    //speaker https://www.sony.com/image/900a12699a1cee214f01139c98e08fce?fmt=pjpeg&resMode=bisharp&wid=354
+    //toys https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwpXlBbrnemR6Kbq4Fk5Hj6LeoCYLIXpuIlA&usqp=CAU
+    //shoes https://img1a.flixcart.com/fk-sp-static/21072015/blue-24744-yepme-8-400x400-imadqtjww8cwpthg.jpeg
+    //laptop https://www8.hp.com/us/en/images/PCs_thumb_tcm245_3067045_tcm245_2900179_tcm245-3067045.jpg
+    "category":"",
+    "categoryid":"shoes-1",
+    "productslist":[{
+        "product-id":"1",
+        "name":"Dip Canvas Shoes",
+        "price":"30 $",
+        "description":"The most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. Known for its sturdy and stylish designs, Sparx is an iconic youth brand for those who dare to explore the world",
+        "image":"https://images-eu.ssl-images-amazon.com/images/I/419gildQ9sL._SX395_QL70_ML2_.jpg"
+    },
+    {
+        "product-id":"2",
+        "name":"RS-X3 Puzzle Shoes",
+        "price":"100 $",
+        "description":"What does the X stand for in RS-X? eXtreme perhaps? eXciting? All of the above? This thrice-eXaggerated form came from a process of stripping away everything from the original..",
+        "image":"https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/371570/05/sv01/fnd/IND/fmt/png/RS-X3-Puzzle-Shoes"
+    },
+    {
+        "product-id":"3",
+        "name":"Vega-3 Running Shoes",
+        "price":"70 $",
+        "description":"Bourge is the leading manufacturer of sports and casual footwear. Bourge offers performance and sport-inspired lifestyle products in categories such as Running, Training and Fitness. ",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81swJXNU3cL._UX395_.jpg"
+    },
+    {
+        "product-id":"4",
+        "name":"White Sneakers",
+        "price":"30 $",
+        "description":"Shoes Bank White Sneaker For Men's/Boy's Sneakers For Men",
+        "image":"https://rukminim1.flixcart.com/image/714/857/jmwch3k0/shoe/j/y/n/dg-292-white-blue-patti-10-digitrendzz-white-original-imaf9p36fkykfjqt.jpeg?q=50"
+    
+    },
+    {
+        "product-id":"5",
+        "name":"Grey Shoes",
+        "price":"40 $",
+        "description":"Asian Shoes are for regular comfort wear. The body of this shoe is in a neutral grey colour with light blue accents. The upper material keeps air circulation while moderated ankles take full care of your feet when you go out for running.",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
+    
+    }
+
+    ]
+    
+   },
+    {
+    "category":"Shirts",
+    "categoryid":"shirts-2",
+    "productslist":[{
+        "product-id":"1",
+        "name":"Men's Trekking Shirt ",
+        "price":"50 $",
+        "description":"The backpacker-designers have created this shirt for travelling the world on foot for days at a time with complete peace of mind.. It is strong and practical, an ideal solution for winter and summer alike, for trips into town and outdoor adventures!",
+        "image":"https://contents.mediadecathlon.com/p1484240/k$ab565f3675dbdd7e3c486175e2c16583/men-s-backpacking-shirt-travel100-burgundy.jpg?&f=800x800"
+    },
+    {
+        "product-id":"2",
+        "name":"Men's Travel Shirt ",
+        "price":"100 $",
+        "description":"Backpackers to travel around the world in comfort.. Light and breathable cotton shirt",
+        "image":"https://contents.mediadecathlon.com/p794733/31b10cb669dafb4798ee2d483bd11e9b/p794733.jpg"
+    },
+    {
+        "product-id":"3",
+        "name":"Elite o-shirt",
+        "price":"99 $",
+        "description":"TRUE STORY MEN’S ELITE O-SHIRT is made for those who spend a lot of time training around forests. This orienteering shirt has a perfect ergonomic shape and it’s specially designed for orienteers, but we recommend it also for runners. The whole back is made from a mesh fabric to ensure the best possible cooling during your run. The top has a short zipper and low collar all around.",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCrbTOQKm3M1oOfgeVQX34x5A5QhUc9CsTHHZR5XN0rbJvOQGm&usqp=CAU"
+    },
+    {
+        "product-id":"4",
+        "name":"Black T-Shirt",
+        "price":"97 $",
+        "description":"Color Block Men Hooded Neck Black T-Shirt",
+        "image":"https://rukminim1.flixcart.com/image/332/398/jlsc58w0/shirt/c/x/z/38-sh701-navy-blue-36-zombom-original-imaf8syzzhmhvccz.jpeg?q=50"
+    
+    },
+    {
+        "product-id":"5",
+        "name":"White, Black, Yellow T-Shirt",
+        "price":"90 $",
+        "description":"Solid Men s White, Black, Yellow T-Shirt",
+        "image":"https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/5621048023764-1"
+    
+    }
+
+    ]
+    
+    },
+    {
+    "category":"shoes",
+    "categoryid":"1",
+    "productslist":[{
+        "product-id":"1",
+        "name":"Dip Canvas Shoes",
+        "price":"30 $",
+        "description":"The most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. Known for its sturdy and stylish designs, Sparx is an iconic youth brand for those who dare to explore the world",
+        "image":"https://images-eu.ssl-images-amazon.com/images/I/419gildQ9sL._SX395_QL70_ML2_.jpg"
+    },
+    {
+        "product-id":"2",
+        "name":"RS-X3 Puzzle Shoes",
+        "price":"100 $",
+        "description":"What does the X stand for in RS-X? eXtreme perhaps? eXciting? All of the above? This thrice-eXaggerated form came from a process of stripping away everything from the original..",
+        "image":"https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/371570/05/sv01/fnd/IND/fmt/png/RS-X3-Puzzle-Shoes"
+    },
+    {
+        "product-id":"3",
+        "name":"Vega-3 Running Shoes",
+        "price":"70 $",
+        "description":"Bourge is the leading manufacturer of sports and casual footwear. Bourge offers performance and sport-inspired lifestyle products in categories such as Running, Training and Fitness. ",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81swJXNU3cL._UX395_.jpg"
+    },
+    {
+        "product-id":"4",
+        "name":"White Sneakers",
+        "price":"30 $",
+        "description":"Shoes Bank White Sneaker For Men's/Boy's Sneakers For Men",
+        "image":"https://rukminim1.flixcart.com/image/714/857/jmwch3k0/shoe/j/y/n/dg-292-white-blue-patti-10-digitrendzz-white-original-imaf9p36fkykfjqt.jpeg?q=50"
+    
+    },
+    {
+        "product-id":"5",
+        "name":"Grey Shoes",
+        "price":"40 $",
+        "description":"Asian Shoes are for regular comfort wear. The body of this shoe is in a neutral grey colour with light blue accents. The upper material keeps air circulation while moderated ankles take full care of your feet when you go out for running.",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
+    
+    }
+
+    ]
+    
+    }
+
+
+
+
+]}
