@@ -62,7 +62,9 @@ app.use('/location',location);
 
 
 // })
-
+app.get('/',(req,res)=>{
+  res.send("welcome");
+})
 app.listen(port,(req,res)=>{
     console.log('listening on 4000');
 })
