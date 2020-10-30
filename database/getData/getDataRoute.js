@@ -75,7 +75,9 @@ router.get('/category/random/:count', function(req, res){
 });
 
 
-
+router.get('/all-user',(req,res)=>{
+   userDetails.getData().then(data=>res.send(data)).catch(err=>res.send(err));
+})
 
 
 module.exports=router;

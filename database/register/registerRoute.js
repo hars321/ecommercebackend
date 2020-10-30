@@ -1,14 +1,22 @@
 var express = require('express');
-const reqisterUser=require('../putData/userDetails');
+const signup=require('./signup');
+const login=require('./login');
 var router = express.Router();
 
 
-router.post('/user', function(req, res){
-   //  putData
+router.post('/signup', function(req, res){
+  
+   signup.putData(req.body).then(data=>res.status(200).send(data)).catch(err=>res.status(404).send(err));
+   
  });
 
- router.post('/seller', function(req, res){
-    registerUser.putData(req.body).then(data=>res.status(200).send('data inserted')).catch(err=>res.status(404).send("error"));
+ router.post('/login', function(req, res){
+   login.validateUser(req.body)
+   .then(data=>{
+    res.status(200);
+    res.send(data)
+   })
+   .catch(err=>res.status(404).send(err));
  });
 
  router.post('/shop', function(req, res){

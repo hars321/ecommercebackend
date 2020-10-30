@@ -12,15 +12,19 @@ const putData=require('./database/putData/putDataRoute');
 const register=require('./database/register/registerRoute');
 const location=require('./database/location/locationRoute');
 
+
+app.use(function(req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS,PUT,DELETE');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS,PUT,DELETE');
+  
+  next();
+});
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(function(req, res, next) {
-    res.setHeader("Access-Control-Allow-Origin", '*');
-    res.setHeader('Access-Control-Allow-Methods', 'POST,GET,OPTIONS,PUT,DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Accept');
-    next();
-  });
 
 app.use('/getdata',getData);
 app.use('/putdata',putData);

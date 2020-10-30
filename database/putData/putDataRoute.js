@@ -4,7 +4,7 @@ const generateUserIndex=require('../generateData/generateUserIndex');
 const productDetails=require('./productDetails.js');
 const sellerDetails=require('./sellerDetails.js');
 const shopDetails=require('./shopDetails.js');
-const userDetails=require('./userDetails.js');
+// const userDetails=require('../register/userDetails.js');
 
 router.post('/product',(req,res)=>{
     
@@ -20,4 +20,6 @@ router.post('/seller',(req,res)=>{
 router.post('/shop',(req,res)=>{
     var{shop_id,seller_id,shop_name,latitude,longitude}=req.body;
 })
+
+
 module.exports=router;
