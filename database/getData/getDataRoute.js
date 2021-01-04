@@ -17,8 +17,8 @@ router.get('/product', function(req, res){
       console.log(err);
       res.send(err);
    })
-   
 });
+
 router.get('/product/random/:count',function(req,res){
    productDetails.getRandomProductHavingCount(req.params.count)
    .then(data=>{
@@ -30,12 +30,30 @@ router.get('/product/random/:count',function(req,res){
    })
    
 })
+router.get('/product/id/:id',function(req,res){
+   productDetails.getProductWithId(req.params.id)
+   .then(data=>{
+      res.send(data);
+   })
+   .catch(err=>{
+      res.send(err)
+   });
+})
+// router.get('/seller/id/:id',function(req,res){
+//    productDetails.getDataWithId("seller",req.params.id)
+//    .then(data=>{
+//       res.send(data).status(200);
+//    })
+//    .catch(res.send(err)).status(400);
+// })
+
 router.get('/product/:count', function(req, res){
 
    productDetails.getDatahavingCount(req.params.count)
    .then(data=>{
       res.send(data);
-   }).catch(err=>{
+   })
+   .catch(err=>{
       res.send(err);
    })
    

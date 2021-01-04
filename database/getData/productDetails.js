@@ -14,6 +14,22 @@ function getData(){
     })
     
 }
+function getProductWithId(id) {
+    console.log(id)
+    return new Promise(function (resolve,reject) {
+        qry=`SELECT * FROM \`product\` where product_id=${id};`
+        
+        con.query(qry,function(err,result,fields){
+            if(err){
+                reject(err);
+            }
+            else{
+                resolve(result);
+            }
+        });
+    });
+
+};
 function getDataAtLocation(circle_diameter,{latitude,longitude}){
     return new Promise(function (resolve,reject){
         qry=`SELECT * , SQRT(
@@ -60,9 +76,8 @@ function getRandomProductHavingCount(count){
         })
     })
 }
-function getDataWithId(){
 
-}
+module.exports.getProductWithId=getProductWithId;
 module.exports.getData=getData;
 module.exports.getDatahavingCount=getDatahavingCount;
 module.exports.getDataAtLocation=getDataAtLocation;
