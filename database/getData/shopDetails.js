@@ -14,6 +14,20 @@ function getData(){
     })
     
 }
+function getShopProducts(shop_id){
+    return new Promise(function(resolve,reject){
+        var qry =  `Select * FROM \`product\` where shop_id = ${shop_id}`;
+        con.query(qry,function(err,result,fields){
+            if(err){
+                reject(err);
+            }
+            else{
+                resolve(result)
+            }
+        })
+
+    })
+}
 
 function getDatahavingCount(count) {
     return new Promise(function(resolve,reject){
@@ -48,6 +62,7 @@ function getDataAtLocation(circle_diameter,{latitude,longitude}){
     });
     
 };
+module.exports.getShopProducts=getShopProducts;
 module.exports.getData=getData;
 module.exports.getDataAtLocation=getDataAtLocation;
 module.exports.getDatahavingCount=getDatahavingCount;
